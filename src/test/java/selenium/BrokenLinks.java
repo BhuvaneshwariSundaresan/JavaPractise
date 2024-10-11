@@ -38,7 +38,7 @@ public class BrokenLinks {
 				
 				if(conn.getResponseCode()>=400)
 				{
-					System.out.println("Broken Link =======>"+hrefValue);
+					System.out.println("Broken Link =>"+hrefValue);
 				}
 				else
 				{
